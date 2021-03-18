@@ -1,0 +1,386 @@
+
+/* start pricing table section */
+
+.pricing-div{
+    padding: 100px;
+    background: #fafafa;
+}
+
+.pricing-table-section{
+
+}
+
+
+.pricing-table-title span{
+    font-size: 13px;
+    color: blue;
+
+}
+
+.pricing-table-title h2{
+    margin-top: 15px;
+    font-size: 23px;
+    position: relative;
+
+}
+
+
+.pricing-table-title  h2::after{
+    content: "";
+    position: absolute;
+    top: 39px;
+    left: 252px;
+    height: 2px;
+    width: 50px;
+    background:rgb(22, 83, 216) ;
+}
+
+
+
+.pricing-table-title p{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+/* start pricing items  */
+
+.pricing-items{
+
+    box-shadow:3px 2px 30px 0px rgb(214, 228, 241);
+    padding:40px;
+
+}
+
+ .pricing-info{
+      margin-bottom: 50px;
+      position: relative;
+    
+}
+
+.pricing-info::before{
+    content: "";
+    position: absolute;
+    top: 130px;
+    left: 43px;
+    height: 1px;
+    width: 200px;
+    .background-image: radial-gradient(ellipse at center,red,rgba(255,255,255,0)75%);
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(4 4 4), rgba(255,0,0,0));
+    
+}
+
+
+ .pricing-info h5{
+    font-size: 18px;
+
+}
+
+
+.pricing-info h2{
+    font-size: 30px;
+    margin-top: 17px;
+   
+
+}
+
+
+ .pricing-info p{
+     font-size: 14px;
+     color: rgb(124, 114, 114);
+
+
+}
+
+
+
+.pricing-item ul{
+    list-style: none;
+
+}
+
+.pricing-item ul li h5{
+    font-size: 14px;
+    line-height: 28px;
+    color: rgb(100, 96, 96);
+
+}
+
+
+.pricing-button .p-btn{
+    border-radius: 30px;
+    color: white;
+    margin-top: 20px;
+    
+
+}
+
+/* start appp section */
+
+
+.our-app-section{
+    background:url(./free-bg.jpg)no-repeat center center ;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.our-app-section::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+
+    width: 100%;
+    background:rgba(22,122,222,.8);
+    z-index: -1;
+}
+
+
+.apps-update-info{
+
+}
+
+.apps-update-info span{
+    font-size: 15px;
+    
+}
+
+
+.apps-update-info h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+
+.apps-update-info h1::after{
+    content: "";
+    position: absolute;
+    top: 113px;
+    left: 297px;
+    height: 2px;
+    width: 50px;
+    background:rgb(255, 255, 255) ;
+}
+
+
+
+.app-button .u-btn{
+    border-radius: 30px;
+    background:white ;
+    color: blue;
+}
+
+
+
+
+.apps-update-info p{
+    font-size: 15px;
+    padding: 0 40px;
+    margin-top: 30px;
+    
+}
+
+
+
+/* starta news letter section */
+
+.news-letter-section{
+  
+
+}
+
+.ns-main-div{
+    padding: 100px;
+    background: #fafafa;
+   
+
+}
+
+.ns-left-side{
+    background: rgb(13, 85, 240);
+    border-radius: 5px;
+  
+  
+
+}
+
+
+.news-letter-info{
+    
+}
+
+.news-letter-info h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.news-letter-info p{
+    font-size: 19px;
+    color: white;
+    margin-top: 25px;
+   
+    
+}
+
+
+.nl-subscribe .nl-btn{
+
+}
+
+input.email-form {
+    /* padding: 10px; */
+    width: 432px;
+    height: 47px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+input.email-form:focus{
+    outline: none;
+}
+
+a.btn.btn-outline-info {
+    background: rgb(13, 85, 240);
+    height: 44px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    width: 158px;
+    margin-top: 20px;
+}
+
+a.btn.btn-outline-info:hover{
+    background: white!important;
+    color: black;
+}
+
+/* start news letter right */
+
+.nl-div{
+   
+}
+
+.news-letter-start{
+    box-shadow: 3px 4px 20px 0px rgb(226, 215, 215);
+    border-radius: 5px;
+    border-radius: 5px;
+   
+}
+.news-letter-start h4{
+    font-size: 20px;
+    
+}
+
+
+.news-letter-start p{
+    font-size: 13px;
+   
+
+}
+
+.nl-btn{
+
+    background: rgb(13, 85, 240);
+    height: 44px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    width: 140px;
+    margin-top: 20px;
+
+}
+
+
+
+
+/* start service section */
+
+.service-info span{
+    font-size: 16px;
+    color: blue;
+    font-weight: 500;
+
+}
+
+.service-info h2{
+    margin-top: 15px;
+    font-size: 35px;
+    position: relative;
+
+}
+
+
+.service-info h2::after{
+    content: "";
+    position: absolute;
+    top: 134px;
+    left:2px;
+    height: 2px;
+    width: 50px;
+    background:rgb(22, 83, 216) ;
+}
+
+
+
+.service-info p{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+/* start service image right */
+
+
+.service-image img{
+    opacity: .4;
+
+
+    transition: all 0.2s ease-in-out;
+}
+
+.image-hover:hover img{
+    opacity: 1!important;
+   
+
+}
+.image-hover{
+    position: relative;
+
+}
+
+.image-hover::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(247, 243, 243);
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.image-hover:hover::after{
+    opacity: 1;
+    z-index: -1;
+}
